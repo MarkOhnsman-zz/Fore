@@ -47,9 +47,6 @@ namespace golf_card.Models
             scorecard += Environment.NewLine;
             return scorecard;
         }
-
-
-
         public void Play()
         {
             int round = 1;
@@ -66,8 +63,6 @@ namespace golf_card.Models
             Console.Clear();
             Console.WriteLine(PrintCard());
         }
-
-
         public Game(Course course, List<Player> players)
         {
             Course = course;
@@ -79,3 +74,5 @@ namespace golf_card.Models
         }
     }
 }
+
+

@@ -8,7 +8,6 @@ namespace golf_card.Models
         public string Name { get; set; }
         public List<int> HolePars { get; set; }
         public int ParTotal { get; set; }
-
         public string CourseCard()
         {
             string courseCard = Name + Environment.NewLine + "Par:     ";
@@ -19,7 +18,6 @@ namespace golf_card.Models
             courseCard += Environment.NewLine;
             return courseCard;
         }
-
         public Course(string name, List<int> holePars)
         {
             Name = name;
